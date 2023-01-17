@@ -1,0 +1,27 @@
+.dataItems{
+    list-style-type: none;
+}
+.dataItems li{
+    padding: 0.3rem;
+}
+input{
+    width: 450px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+#searchBtn{
+    padding: 10px;
+    border: 1px solid #811eb8;
+    border-radius: 5px;
+    color:#fff;
+    background-color: #811eb8;
+}
+@media screen and (max-width: 600px){
+    .formDiv{
+        width: 100%;
+    }
+    input{
+        width: 100vw;
+    }
+}
