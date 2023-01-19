@@ -1,0 +1,24 @@
+ul li{
+    list-style-type: none;
+    color: #666;
+    display: block;
+}
+.weatherContainer{
+    display: flex;
+    justify-content: center;   
+}
+#wind{
+    margin-left: 0.4rem;
+}
+.tempDiv{
+    margin-left: 1rem;
+}
+#listDiv{
+  position: relative;
+  right: 7rem;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

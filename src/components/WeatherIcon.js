@@ -1,9 +1,10 @@
 import React from 'react'
 
-const WeatherIcon = (weatherIcon) => {
+const WeatherIcon = ({iconImage}) => {
+
   return (
     <div>
-        <img src={``} alt='icon'/>
+       <img src={`http://openweathermap.org/img/wn/${iconImage}.png`}/>
     </div>
   )
 }

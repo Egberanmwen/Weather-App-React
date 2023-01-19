@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Styles from '../styles/weatherTemperature.css';
 
-const WeatherTemperature = (celsius) => {
+const WeatherTemperature = (defaultCity,celsius) => {
   return (
     <div>
-        <span>{celsius}</span>
+      <span className='temperature'>{Math.round(defaultCity.celsius)}</span> 
+      <span className='units'>°C</span>
+        
     </div>
   )
 }

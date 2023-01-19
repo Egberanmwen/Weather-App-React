@@ -16,7 +16,7 @@ const Search = ({defaultCity}) => {
       wind: res.data.wind.speed,
       coordinates: res.data.coord,
       description: res.data.weather[0].description,
-      date: res.data.dt *1000,
+      date: new Date(res.data.dt *1000),
       icon: res.data.weather[0].icon
     })
   }

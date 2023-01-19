@@ -1,0 +1,7 @@
+.temperature{
+    font-size: 3rem;
+}
+.units{
+    position: relative;
+    bottom: 1.5rem;
+}

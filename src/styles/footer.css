@@ -1,0 +1,9 @@
+.footerText{
+    position: relative;
+    top: 20px;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: #885df1;
+}
